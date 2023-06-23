@@ -1,42 +1,59 @@
-.body {
+body {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
 }
 
 .logo-link {
-  font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  text-decoration: none;
-}
-.color-logo {
   color: #4d5ae5;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .logo-text {
   color: #2e2f42;
 }
-.nav-link a {
+.nav-link .studio-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-decoration: none;
 }
-.nav-link a:hover {
+.nav-link .studio-link:hover,
+.nav-link .studio-link:focus {
+  color: #404bbf;
+}
+.nav-link .studio-portflio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.nav-link .studio-portflio:hover,
+.nav-link .studio-portflio:focus {
   color: #404bbf;
 }
 
-.address-link a {
-  font-family: "Roboto";
-  font-style: normal;
+.nav-link .studio-contact {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.nav-link .studio-contact:hover,
+.nav-link .studio-contact:focus {
+  color: #404bbf;
+}
+
+.address .mail {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -44,22 +61,33 @@
   color: #434455;
   text-decoration: none;
 }
-.address-link a:hover {
+.address .mail:hover {
   color: #404bbf;
 }
-.mail {
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+.address .tel {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
 }
+.address .tel:hover {
+  color: #404bbf;
+}
+
 .button-main {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #ffffff;
   background: #4d5ae5;
-  box-shadow: 0px 4px 4px;
-  border-radius: 4px;
+  cursor: pointer;
 }
-.button-main:hover {
+.button-main:hover,
+.button-main:focus {
   background: #404bbf;
 }
 
@@ -118,7 +146,7 @@
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-.secondary-title {
+.image .secondary-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -127,7 +155,8 @@
   text-transform: capitalize;
   color: #2e2f42;
 }
-.basic-description h3 {
+
+.basic-description .third-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -141,19 +170,26 @@
   letter-spacing: 0.02em;
   color: #434455;
 }
-.description-team h3 {
+.team {
+  background-color: #f4f4fd;
+}
+
+.team .third-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  background-color: #ffffff;
 }
-.description-team p {
+.team .text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  text-align: center;
   letter-spacing: 0.02em;
   color: #434455;
+  background-color: #ffffff;
+}
+.footer {
+  background-color: #2e2f42;
 }
