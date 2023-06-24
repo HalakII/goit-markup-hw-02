@@ -24,61 +24,28 @@ body {
 .logo-text {
   color: var(--navy-color);
 }
-.studio-link {
+.nav-link {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--navy-color);
   text-decoration: none;
 }
-.studio-link:hover,
-.studio-link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
-.studio-portflio {
-  font-weight: 500;
+
+.contacts {
+  font-weight: 400;
   letter-spacing: 0.02em;
-  color: var(--navy-color);
-}
-
-.studio-portflio:hover,
-.studio-portflio:focus {
-  color: #404bbf;
-}
-
-.studio-contact {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  color: var(--navy-color);
-}
-
-.studio-contact:hover,
-.studio-contact:focus {
-  color: #404bbf;
-}
-.address {
+  color: #434455;
   font-style: normal;
-  list-style: none;
 }
-.mail {
-  font-weight: 400;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-.mail:hover,
-.mail:focus {
+.contacts:hover,
+.contacts:focus {
   color: #404bbf;
 }
 
-.tel {
-  font-weight: 400;
-  letter-spacing: 0.02em;
-  color: #434455;
-  text-decoration: none;
-}
-.tel:hover,
-.tel:focus {
-  color: #404bbf;
-}
 .main-page {
   background-color: var(--navy-color);
 }
@@ -92,8 +59,10 @@ body {
 }
 
 .button-main {
-  font-family: "roboto" sans-serif;
+  font-family: "Roboto" sans-serif;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white-color);
   background: #4d5ae5;
@@ -137,6 +106,9 @@ body {
   text-transform: capitalize;
   color: var(--navy-color);
 }
+.team-images-item {
+  background-color: var(--white-color);
+}
 
 .footer {
   background-color: var(--navy-color);
@@ -145,12 +117,15 @@ body {
   color: var(--cloud-color);
 }
 .ftext {
+  letter-spacing: 0.02em;
   color: var(--cloud-color);
 }
 
 .button-portfolio {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #4d5ae5;
   background: var(--cloud-color);
